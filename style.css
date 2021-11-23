@@ -1,0 +1,141 @@
+@import url("font.css");
+
+/* main style */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+width:100%;
+padding-top: 10px;
+padding-left: 100px;
+padding-bottom: 10px;
+font-family: chuckfive;
+display:inline-flex;
+background-color: rgba(153, 189, 221, 0.75);
+
+
+}
+
+header .small {
+margin-left: 100px;
+
+
+}
+
+nav {
+text-align: center;
+border: solid black 2px;
+background-color: rgba(63, 113, 156, 0.5);
+font-family: bebas;
+font-size: large;
+}
+
+nav a {
+text-decoration: none;
+color:aliceblue;
+text-transform: uppercase;
+padding: 10px;
+
+}
+
+
+body {
+  background-image:url("cover.jpg");
+  background-attachment: fixed;
+
+}
+
+#page {
+  /* thing that make the page big */
+  padding: 10px;
+  position: relative;
+  width: 100%;
+  height: auto;
+
+}
+
+.thumb {
+width: 200;
+height: 100;
+}
+
+.node {
+width:85%;
+height: auto;
+border: 1px solid black;
+padding: 5px;
+background-color: rgba(206, 225, 241, 0.85);
+border-radius: 5px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+max-width: fit-content;
+min-width: 800px;
+}
+
+.thumb img {
+border: 3px solid grey;
+border-radius: 4px;
+padding: 5px;
+width: 100px;
+}
+
+.thumb img:hover {
+box-shadow: 0 0 2px 1px rgb(0, 140, 186, 0.5);
+}
+
+.details {
+height: 125px;
+width:500px;
+padding:1px 30px;
+margin-top: 5px;
+margin-bottom: auto;
+margin-left: 5px;
+border-radius: 5px;
+border-top: 7px solid rgb(18, 131, 78);
+border-bottom: 7px solid rgb(40, 97, 151);
+border-left: 3px solid rgb(34, 134, 228);
+
+}
+.details .title {
+list-style: none;
+padding-bottom: 10px;
+padding-left: 10px;
+font-size:2.5ch;
+font-family: quicksand-reg;
+}
+.details ul {
+margin-top:-10px;
+}
+
+.details li {
+list-style:lower-greek;
+font-family: quicksand-reg;
+font-size:1.8ch;
+}
+
+.node div {
+position: relative;
+display: inline-block;
+vertical-align: top;
+}
+.right {
+height:25px;
+width:75px;
+border: 1px solid black;
+border-radius: 5px;
+margin-top:50px;
+margin-left:5px;
+text-align: center;
+padding:5px;
+font-family: bebas;
+font-size: x-large;
+background-color: rgb(116, 182, 160);
+}
+.right a {
+text-decoration: none;
+color: black;
+}
